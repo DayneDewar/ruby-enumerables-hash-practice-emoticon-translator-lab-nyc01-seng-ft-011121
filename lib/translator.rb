@@ -12,7 +12,7 @@ end
 hash
 end
 
-def get_japanese_emoticon(path)(emoticon)
+def get_japanese_emoticon(path)(emoticons)
   # code goes here
 end
 
