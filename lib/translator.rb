@@ -12,7 +12,7 @@ end
 hash
 end
 
-def get_japanese_emoticon(path, load_library(path))
+def get_japanese_emoticon(path)(load_library(path))
   # code goes here
 end
 
