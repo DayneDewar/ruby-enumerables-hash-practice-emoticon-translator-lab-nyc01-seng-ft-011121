@@ -7,7 +7,7 @@ emojis = YAML.load_file(path)
 emojis.each do |k, v|
   hash[k] = {}
   hash[k][:english] = {}
-  hash[k][:japanese] = {}
+  hash[k][:japanese] = {v[]}
 end
 
 
