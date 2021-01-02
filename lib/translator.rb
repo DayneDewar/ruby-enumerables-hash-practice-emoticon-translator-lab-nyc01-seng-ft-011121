@@ -5,6 +5,7 @@ def load_library(path)
 hash = {}
 emojis = YAML.load_file(path)
 emojis.each do |k, v|
+  hash[k] = {}
   
 end
 
