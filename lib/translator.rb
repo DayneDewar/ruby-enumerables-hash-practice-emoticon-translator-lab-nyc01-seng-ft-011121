@@ -9,13 +9,10 @@ emojis.each do |k, v|
   hash[k][:english] = v[0]
   hash[k][:japanese] = v[1]
 end
-
-
 hash
-
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(path, load_library)
   # code goes here
 end
 
